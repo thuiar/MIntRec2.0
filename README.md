@@ -113,13 +113,13 @@ The framework contains 4 main modules:
    ```
    sh examples/run_mag_bert_baselines.sh
    ```
+   
 ## Citations
 
 If this work is helpful, or you want to use the codes and results in this repo, please cite the following papers:
 
 * [MIntRec2.0: A Large-scale Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations](https://openreview.net/forum?id=nY9nITZQjc)  
 * [MIntRec: A New Dataset for Multimodal Intent Recognition](https://dl.acm.org/doi/10.1145/3503161.3547906)
-
 
 ```
 @inproceedings{MIntRec2.0,
@@ -139,4 +139,6 @@ If this work is helpful, or you want to use the codes and results in this repo, 
    pages = {1688–1697},
 }
 ```
+
+The dataset and camera ready version of the paper will be updated recently. 
 
