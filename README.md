@@ -49,7 +49,7 @@ We provide video feature files, audio feature files, and text annotation files (
 
 
 ### Raw data
-We also provide raw video data (13G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1CWTQUx5YxJb0P5zXrCWrZpfHX1H0gSIf?usp=sharing). 
+We also provide raw video data (13G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1jFZnE_TYKGMv6OJCG6waEc-JVfTCb6en?usp=drive_link). 
 
 
 
