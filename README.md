@@ -24,8 +24,8 @@ Example:
 
 | Date 	| Announcements 	|
 |-	|-	|
-| 1/2024  | 🎆 🎆 The larger-scale second edition of the multimodal intent dataset has been released. Refer to the directory [MIntRec2.0](https://github.com/thuiar/MIntRec2.0) for the dataset and codes. Read the paper -- [MIntRec2. 0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations (Published in ICLR 2023)](https://ieeexplore.ieee.org/document/10349963).  |
-| 10/2022  | 🎆 🎆 The first multimodal intent dataset is published. Refer to the directory [MIntRec](https://github.com/thuiar/MIntRec) for the dataset and codes. Read the paper -- [Mintrec: A new dataset for multimodal intent recognition (Published in IEEE/ACM MM 2022)](https://dl.acm.org/doi/abs/10.1145/3503161.3547906).  |
+| 1/2024  | 🎆 🎆 The first large-scale multimodal intent dataset has been released. Refer to the directory [MIntRec2.0](https://github.com/thuiar/MIntRec2.0) for the dataset and codes. Read the paper -- [MIntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations (Published in ICLR 2024)](https://ieeexplore.ieee.org/document/10349963).  |
+| 10/2022  | 🎆 🎆 The first multimodal intent dataset is published. Refer to the directory [MIntRec](https://github.com/thuiar/MIntRec) for the dataset and codes. Read the paper -- [MIntrec: A New Dataset for Multimodal Intent Recognition (Published in ACM MM 2022)](https://dl.acm.org/doi/abs/10.1145/3503161.3547906).  |
 
 ---------------------------------------------------------------------------
 
