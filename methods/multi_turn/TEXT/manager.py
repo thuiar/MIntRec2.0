@@ -13,7 +13,6 @@ from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
 from torch.utils.data import Dataset
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from transformers import AdamW, get_linear_schedule_with_warmup
-from ood_detection.multi_turn import ood_detection_map
 import itertools
 from itertools import cycle
 import pandas as pd

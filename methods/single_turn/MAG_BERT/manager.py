@@ -8,7 +8,6 @@ from tqdm import trange, tqdm
 from data.single_turn.utils import get_dataloader
 from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
 from transformers import AdamW, get_linear_schedule_with_warmup
-from ood_detection.single_turn import ood_detection_map
 from sklearn.neighbors import LocalOutlierFactor
 import pandas as pd
 from scipy.stats import norm as dist_model

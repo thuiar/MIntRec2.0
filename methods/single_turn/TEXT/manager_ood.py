@@ -12,7 +12,6 @@ from utils.functions import restore_model, save_model, EarlyStopping
 from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
 from torch.utils.data import Dataset
 from transformers import AdamW, get_linear_schedule_with_warmup
-from ood_detection.single_turn import ood_detection_map
 from itertools import cycle
 import pandas as pd
 from scipy.stats import norm as dist_model

@@ -6,7 +6,6 @@ from utils.functions import restore_model, save_model, EarlyStopping
 from tqdm import trange, tqdm
 from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
 from data.multi_turn.utils import get_dataloader
-from ood_detection.multi_turn import ood_detection_map
 import numpy as np
 from torch import optim
 from transformers import AdamW, get_linear_schedule_with_warmup
