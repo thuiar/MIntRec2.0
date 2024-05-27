@@ -138,8 +138,8 @@ If this work is helpful, or you want to use the codes and results in this repo, 
 * [MIntRec: A New Dataset for Multimodal Intent Recognition](https://dl.acm.org/doi/10.1145/3503161.3547906)
 
 ```
-@inproceedings{MIntRec 2.0,
-   title={{MI}ntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations},
+@inproceedings{zhang2024mintrec,
+   title={{MI}ntRec 2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations},
    author={Zhang, Hanlei and Wang, Xin and Xu, Hua and Zhou, Qianrui and Su, Jianhua and Zhao, Jinyue and Li, Wenrui and Chen, Yanting and Gao, Kai},
    booktitle={The Twelfth International Conference on Learning Representations},
    year={2024},
