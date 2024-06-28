@@ -1,4 +1,4 @@
-# MIntRec 2.0
+# MIntRec2.0
 
 <p align="center">
   <a target="_blank">
@@ -15,7 +15,7 @@
 <br>
 </p>
 
-MIntRec 2.0 is a large-scale multimodal multi-party benchmark dataset for  intent recognition and out-of-scope detection in conversations. We also provide benchmark framework and evaluation codes for usage.
+MIntRec2.0 is a large-scale multimodal multi-party benchmark dataset for  intent recognition and out-of-scope detection in conversations. We also provide benchmark framework and evaluation codes for usage.
 
 Example:
 ![Example](figs/example.png "Example")
@@ -24,17 +24,17 @@ Example:
 
 | Date 	| Announcements 	|
 |-	|-	|
-| 1/2024  | 🎆 🎆 The first large-scale multimodal intent dataset has been released. Refer to the directory [MIntRec 2.0](https://github.com/thuiar/MIntRec2.0) for the dataset and codes. Read the paper -- [MIntRec 2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations (Published in ICLR 2024)](https://openreview.net/forum?id=nY9nITZQjc).  |
-| 10/2022  | 🎆 🎆 The first multimodal intent dataset is published. Refer to the directory [MIntRec](https://github.com/thuiar/MIntRec) for the dataset and codes. Read the paper -- [MIntrec: A New Dataset for Multimodal Intent Recognition (Published in ACM MM 2022)](https://dl.acm.org/doi/abs/10.1145/3503161.3547906).  |
+| 1/2024  | 🎆 🎆 The first large-scale multimodal intent dataset has been released. Refer to the directory [MIntRec2.0](https://github.com/thuiar/MIntRec2.0) for the dataset and codes. Read the paper -- [MIntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations (Published in ICLR 2024)](https://openreview.net/forum?id=nY9nITZQjc).  |
+| 10/2022  | 🎆 🎆 The first multimodal intent dataset is published. Refer to the directory [MIntRec](https://github.com/thuiar/MIntRec) for the dataset and codes. Read the paper -- [MIntRec: A New Dataset for Multimodal Intent Recognition (Published in ACM MM 2022)](https://dl.acm.org/doi/abs/10.1145/3503161.3547906).  |
 
 ---------------------------------------------------------------------------
 
 
 ## Features
 
-MIntRec 2.0 has the following features:
+MIntRec2.0 has the following features:
 
-- **Large in Scale**: Compared with our first version of multimodal intent recognition dataset ([MIntRec](https://github.com/thuiar/MIntRec)), MIntRec 2.0 increase the data-scale from 2.2K to 15K, with 30 intent classes, 9.3K in-scope and 5.7K out-of-scope annotated utterances with text, video, and audio modalities.
+- **Large in Scale**: Compared with our first version of multimodal intent recognition dataset ([MIntRec](https://github.com/thuiar/MIntRec)), MIntRec2.0 increase the data-scale from 2.2K to 15K, with 30 intent classes, 9.3K in-scope and 5.7K out-of-scope annotated utterances with text, video, and audio modalities.
 - **Multi-turn & Multi-party Dialogues**: It contains 1,245 dialogues with an average of 12 utterances per dialogue in continuous conversations. Each utterance has an intent label in each dialogue. Each dialogue has at least two different speakers with annotated speaker identities for each utterance.
 
 - **Out-of-scope Detection**: As real-world dialogues are in the open-world scenarios as suggested in [TEXTOIR](https://github.com/thuiar/TEXTOIR), we further include an OOS tag for detecting those utterances that do not belong to any of existing intent classes. They can be used for out-of-distribution detection and improve system robustness.
@@ -105,8 +105,8 @@ The framework contains 4 main modules:
 1. Use anaconda to create Python environment
 
    ```
-   conda create --name mintrec python=3.9
-   conda activate mintrec
+   conda create --name MIntRec python=3.9
+   conda activate MIntRec
    ```
 2. Install PyTorch (Cuda version 11.2)
 
@@ -116,7 +116,7 @@ The framework contains 4 main modules:
 3. Clone the MIntRec repository.
 
    ```
-   git clone git@github.com:thuiar/MIntRec 2.0.git
+   git clone git@github.com:thuiar/MIntRec2.0.git
    cd MIntRec
    ```
 4. Install related environmental dependencies
@@ -134,16 +134,17 @@ The framework contains 4 main modules:
 
 If this work is helpful, or you want to use the codes and results in this repo, please cite the following papers:
 
-* [MIntRec 2.0: A Large-scale Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations](https://openreview.net/forum?id=nY9nITZQjc)  
+* [MIntRec2.0: A Large-scale Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations](https://openreview.net/forum?id=nY9nITZQjc)  
 * [MIntRec: A New Dataset for Multimodal Intent Recognition](https://dl.acm.org/doi/10.1145/3503161.3547906)
 
 ```
-@inproceedings{zhang2024mintrec,
-   title={{MI}ntRec 2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations},
-   author={Zhang, Hanlei and Wang, Xin and Xu, Hua and Zhou, Qianrui and Su, Jianhua and Zhao, Jinyue and Li, Wenrui and Chen, Yanting and Gao, Kai},
-   booktitle={The Twelfth International Conference on Learning Representations},
-   year={2024},
-   url={https://openreview.net/forum?id=nY9nITZQjc}
+@inproceedings{
+  zhang2024mintrec,
+  title={{MI}ntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations},
+  author={Hanlei Zhang and Xin Wang and Hua Xu and Qianrui Zhou and Kai Gao and Jianhua Su and jinyue Zhao and Wenrui Li and Yanting Chen},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=nY9nITZQjc}
 }
 ```
 ```
