@@ -24,6 +24,7 @@ Example:
 
 | Date 	| Announcements 	|
 |-	|-	|
+| 4/2025 | The latest results of multimodal large language models on the MIntRec2.0 dataset have been released on our [MMLA](https://github.com/thuiar/MMLA) benchmark, with an accuracy score of over 67%. Read the paper -- [Can Large Language Models Help Multimodal Language Analysis? MMLA: A Comprehensive Benchmark](https://arxiv.org/pdf/2504.16427).  |
 | 1/2024  | 🎆 🎆 The first large-scale multimodal intent dataset has been released. Refer to the directory [MIntRec2.0](https://github.com/thuiar/MIntRec2.0) for the dataset and codes. Read the paper -- [MIntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations (Published in ICLR 2024)](https://openreview.net/forum?id=nY9nITZQjc).  |
 | 10/2022  | 🎆 🎆 The first multimodal intent dataset is published. Refer to the directory [MIntRec](https://github.com/thuiar/MIntRec) for the dataset and codes. Read the paper -- [MIntRec: A New Dataset for Multimodal Intent Recognition (Published in ACM MM 2022)](https://dl.acm.org/doi/abs/10.1145/3503161.3547906).  |
 
