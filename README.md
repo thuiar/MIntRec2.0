@@ -42,12 +42,8 @@ MIntRec2.0 has the following features:
 
 ## Download
 
-### Zenodo
-The brief version of the dataset (text and video, audio feature files, 7G) can be downloaded from [zenodo](https://zenodo.org/record/8041676).
-
 ### Feature data
 We provide video feature files, audio feature files, and text annotation files (9G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1fcNqXGDLFQfM3gNslG9qHdzl-_WjmvY3?usp=sharing). 
-
 
 ### Raw data
 We also provide raw video data (13G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1W-z8kMOA1TaB3pE4rk4ZpkBQLvODMQ_Y?usp=sharing). 
