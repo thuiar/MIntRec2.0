@@ -42,13 +42,8 @@ MIntRec2.0 has the following features:
 
 ## Download
 
-### Feature data
-We provide video feature files, audio feature files, and text annotation files (9G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1fcNqXGDLFQfM3gNslG9qHdzl-_WjmvY3?usp=sharing). 
-
-### Raw data
-We also provide raw video data (13G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1W-z8kMOA1TaB3pE4rk4ZpkBQLvODMQ_Y?usp=sharing). 
-
-
+### Feature and raw videos
+We provide full feature (video and audio), text annotations, and raw videos of in-scope (13G) and out-of-scope data (7.44G), which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1W-z8kMOA1TaB3pE4rk4ZpkBQLvODMQ_Y?usp=sharing). 
 
 ## Dataset Description
 
