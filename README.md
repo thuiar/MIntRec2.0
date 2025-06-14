@@ -1,5 +1,7 @@
 # MIntRec2.0
 
+🔥 🔥 🔥 The latest results of multimodal large language models on the MIntRec2.0 dataset have been released on our [MMLA](https://github.com/thuiar/MMLA) benchmark, with an accuracy score of over 67%. Enjoy!
+
 <p align="center">
   <a target="_blank">
     <img alt="GitHub" src="https://badgen.net/badge/license/CC-BY-NC-SA-4.0/green">
