@@ -4,7 +4,7 @@ import logging
 from torch import nn
 from utils.functions import restore_model, save_model, EarlyStopping
 from tqdm import trange, tqdm
-from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
+from utils.metrics import AverageMeter, Metrics, OID_Metrics
 from data.single_turn.utils import get_dataloader
 import numpy as np
 from torch import optim
@@ -35,8 +35,6 @@ class MULT:
         self.criterion = nn.CrossEntropyLoss()
         self.metrics = Metrics(args)
         self.oid_metrics = OID_Metrics(args)
-        self.ood_metrics = OOD_Metrics(args)
-        self.ood_detection_func = ood_detection_map[args.ood_detection_method]
         
         if args.train:
             self.best_eval_score = 0
