@@ -11,7 +11,7 @@ from torch import nn
 from tqdm import trange, tqdm
 from transformers import BertForSequenceClassification, RobertaForSequenceClassification
 from utils.functions import restore_model, save_model, EarlyStopping
-from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
+from utils.metrics import AverageMeter, Metrics, OID_Metrics
 from torch.utils.data import Dataset
 from transformers import AdamW, get_linear_schedule_with_warmup
 from sklearn.neighbors import LocalOutlierFactor
@@ -58,9 +58,7 @@ class TEXT:
         self.criterion = nn.CrossEntropyLoss()
         self.metrics = Metrics(args)
         self.oid_metrics = OID_Metrics(args)
-        self.ood_metrics = OOD_Metrics(args)
-        self.ood_detection_func = ood_detection_map[args.ood_detection_method]
-        
+         
         if args.train:
             self.best_eval_score = 0
         else:
