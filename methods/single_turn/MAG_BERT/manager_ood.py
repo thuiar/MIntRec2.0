@@ -6,7 +6,7 @@ from torch import nn
 from utils.functions import restore_model, save_model, EarlyStopping
 from tqdm import trange, tqdm
 from data.single_turn.utils import get_dataloader
-from utils.metrics import AverageMeter, Metrics, OOD_Metrics, OID_Metrics
+from utils.metrics import AverageMeter, Metrics, OID_Metrics
 from transformers import AdamW, get_linear_schedule_with_warmup
 from sklearn.neighbors import LocalOutlierFactor
 import pandas as pd
@@ -38,8 +38,6 @@ class MAG_BERT_OOD:
         self.criterion = nn.CrossEntropyLoss()
         self.metrics = Metrics(args)
         self.oid_metrics = OID_Metrics(args)
-        self.ood_metrics = OOD_Metrics(args)
-        self.ood_detection_func = ood_detection_map[args.ood_detection_method]
         
         if args.train:
             self.best_eval_score = 0
